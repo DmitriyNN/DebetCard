@@ -16,15 +16,9 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.junit.jupiter:junit-jupiter:5.8.1'
-    implementation 'pl.oakfusion:chromedriver:2.9'
-    implementation 'io.github.bonigarcia:webdrivermanager:5.3.2'
-    implementation 'org.webjars.npm:chromedriver:2.35.0'
-    implementation 'com.oakfusion:chromedriver-dep:2.9'
-    implementation 'org.openqa.selenium:selenium-rc:1.0-20081010.060147'
-    implementation 'org.seleniumhq.selenium:selenium-java:4.8.1'
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.6.1'
-    testImplementation 'org.seleniumhq.selenium:selenium-java:4.2.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.0'
+    testImplementation 'org.seleniumhq.selenium:selenium-java:4.5.0'
+    testImplementation 'io.github.bonigarcia:webdrivermanager:5.3.0'
 }
 
 test {
